@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T16:08:40.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="r_uZ4AnG6qaVPMxvKu_p" version="24.4.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-12T20:44:04.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="9PValAbZyWBvor2M4Fee" version="24.4.0" type="device">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="794" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -166,14 +166,20 @@
         <mxCell id="jpGWETjx-s4NVu-49unm-69" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1065" y="95" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-71" target="jpGWETjx-s4NVu-49unm-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-71" target="jpGWETjx-s4NVu-49unm-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jpGWETjx-s4NVu-49unm-71" value="Check any fee provided by Doctor?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="890.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jpGWETjx-s4NVu-49unm-73" value="Update the fee to all the needed table in DB and Mark as unpaid till it gets paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="870" width="110" height="80" as="geometry" />
+          <mxGeometry x="870" y="850" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jpGWETjx-s4NVu-49unm-74" value="Keep the fee as is and Mark as unpaid till it gets paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="975" width="110" height="50" as="geometry" />
+          <mxGeometry x="860" y="990" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jpGWETjx-s4NVu-49unm-76" value="Move patient one queue position down and keep the HOLD state visible in the screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="585" width="130" height="85" as="geometry" />
@@ -226,6 +232,12 @@
         </mxCell>
         <mxCell id="jpGWETjx-s4NVu-49unm-100" value="Patient visiting state to be change to &quot;Visiting&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="1130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-105" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="868" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-107" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="928" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
