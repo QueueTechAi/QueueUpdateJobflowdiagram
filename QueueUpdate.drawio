@@ -1,0 +1,233 @@
+<mxfile host="app.diagrams.net" modified="2024-05-12T16:08:40.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="r_uZ4AnG6qaVPMxvKu_p" version="24.4.0" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="794" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="QueueUpdate JOB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="280" y="50" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="New Patient Added" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="135" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-1" value="Patient arrived and reception entered the details for the new appointment - Time Slot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-2" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="jpGWETjx-s4NVu-49unm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="130.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="424" y="130.5" />
+            </Array>
+            <mxPoint x="460" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-3" target="jpGWETjx-s4NVu-49unm-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-3" value="New Patient as added in queue position&amp;nbsp; based on the selected time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-4" target="jpGWETjx-s4NVu-49unm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-4" value="Booked&amp;nbsp;&lt;div&gt;Time slot ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-4" target="jpGWETjx-s4NVu-49unm-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="190" as="sourcePoint" />
+            <mxPoint x="540" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-10" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-12" target="jpGWETjx-s4NVu-49unm-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-12" value="Join the Queue Option Check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-17" target="jpGWETjx-s4NVu-49unm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-17" value="Check Existing&amp;nbsp;&lt;div&gt;queue time&amp;nbsp;&lt;/div&gt;&lt;div&gt;- clinic&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;end time - MAX queue possible -&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;is it OK&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;to&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;accept ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="125" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="225" as="sourcePoint" />
+            <mxPoint x="920" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-19" value="New Patient added at the end of the exiting queue position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-22" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="265" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-23" value="Ask for next day booking to patient and book if it OK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-17" target="jpGWETjx-s4NVu-49unm-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="195" as="sourcePoint" />
+            <mxPoint x="860" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-30" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-31" target="jpGWETjx-s4NVu-49unm-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-31" value="Patient Visit on HOLD - Doctor applied HOLD option and want patient to wait and watch - or collect Injection and come back" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-77" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-34" target="jpGWETjx-s4NVu-49unm-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-34" value="QueueUpdate JOB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jpGWETjx-s4NVu-49unm-34">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-38" target="jpGWETjx-s4NVu-49unm-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-38" value="Queue Management table refreshed and Current Queue Position column updated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="892.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-39" target="jpGWETjx-s4NVu-49unm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="1420" as="sourcePoint" />
+            <mxPoint x="745" y="1562.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-39" value="Move the Patient from Qmanagement table to report table with all details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="900" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-69" target="jpGWETjx-s4NVu-49unm-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-43" value="Recently&amp;nbsp;&lt;div&gt;visited before&amp;nbsp;&lt;div&gt;X days ?&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="30" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-50" value="MAX is to be configured" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-55" value="X to be configured" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="105" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-59" value="Reduced Fee apply - update table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="244" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-43" target="jpGWETjx-s4NVu-49unm-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="170" as="targetPoint" />
+            <mxPoint x="1060" y="75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-60" target="jpGWETjx-s4NVu-49unm-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-60" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="995" y="159" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-66" value="No reduced fee apply - update table" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="165" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-43" target="jpGWETjx-s4NVu-49unm-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="75" as="sourcePoint" />
+            <mxPoint x="1165" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-69" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="95" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-71" value="Check any fee provided by Doctor?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="890.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-73" value="Update the fee to all the needed table in DB and Mark as unpaid till it gets paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="870" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-74" value="Keep the fee as is and Mark as unpaid till it gets paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="975" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-76" value="Move patient one queue position down and keep the HOLD state visible in the screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="585" width="130" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-85" target="jpGWETjx-s4NVu-49unm-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-85" value="Patient Visit DONE - Doctor updated the status as DONE&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="955" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-87" value="QueueUpdate JOB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="820" width="100" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jpGWETjx-s4NVu-49unm-87">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-90" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-88" target="jpGWETjx-s4NVu-49unm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-91" target="jpGWETjx-s4NVu-49unm-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-91" target="jpGWETjx-s4NVu-49unm-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-98" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jpGWETjx-s4NVu-49unm-97">
+          <mxGeometry x="0.2533" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-91" value="Check anyone on HOLD is Ready?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-71" target="jpGWETjx-s4NVu-49unm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-93" value="Change the state from &quot;HOLD&quot; to &quot;Visiting&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1025" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-95" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1045" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jpGWETjx-s4NVu-49unm-96" target="jpGWETjx-s4NVu-49unm-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-96" value="Next patient in the Queue to be alerted in Mobile or Display screen - Appointment ID can be displayed on the Screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1140" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGWETjx-s4NVu-49unm-100" value="Patient visiting state to be change to &quot;Visiting&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1130" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
